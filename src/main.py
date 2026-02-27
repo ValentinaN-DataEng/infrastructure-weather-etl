@@ -10,7 +10,7 @@ def main():
     clean_data = transform_weather(raw_data)
     load_to_csv(clean_data)
 
-    print("Weather ETL pipeline executed successfully 🚀")
+    print("Weather ETL pipeline executed successfully 🚀!")
 
 if __name__ == "__main__":
     main()
